@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+:root {
+  --card-set-gap: 20px;
+  --card-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+      0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  background-color: rgba(188, 208, 235, 0.74);
+}
+
+.search-form {
+  text-align: center;
+  position: relative;
+  display: block;
+}
+
+.container {
+  padding: 10px;
+}
+
+.gallery-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: -10px;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.photo-card {
+  margin: 10px;
+  -ms-flex-preferred-size: calc((100% - 20px * 3) / 3);
+      flex-basis: calc((100% - 20px * 3) / 3);
+  border-radius: 4px;
+  overflow: hidden;
+  -webkit-box-shadow: var(--card-shadow);
+          box-shadow: var(--card-shadow);
+}
+
+.photo-card:hover .stats {
+  background-color: rgba(255, 255, 255, 0.322);
+}
+
+.photo-card:hover .stats-item {
+  opacity: 1;
+}
+
+.photo {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.stats {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 40px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: transparent;
+}
+
+.stats-item {
+  opacity: 0;
+}
+
+.btn {
+  background-color: #092741;
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 40px;
+  height: 28px;
+  cursor: pointer;
+}
+
+.form-input {
+  position: relative;
+  width: 350px;
+  height: 50px;
+  border-radius: 20px;
+  border: transparent;
+  outline: none;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  padding: 15px;
+  text-align: left;
+  font-size: 30px;
+}
+
+.form-input:focus {
+  border: 5px solid black;
+}
+
+.form-input:placeholder-shown {
+  border-color: #ffa000;
+}
+
+.form-input:not(:placeholder-shown) {
+  border-color: #2196f3;
+}
+/*# sourceMappingURL=main.css.map */

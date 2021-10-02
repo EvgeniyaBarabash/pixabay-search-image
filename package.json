@@ -13,7 +13,7 @@
     "url": "git+https://github.com/goitacademy/parcel-project-template.git"
   },
   "keywords": [],
-  "author": "Evgeniya Barabash <barabash1989@gmail.com>",
+  "author": "Evgeniya Barabash <barabash1989npm@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
@@ -27,6 +27,6 @@
   },
   "dependencies": {
     "notiflix": "^3.0.2",
-    "simplelightbox": "^2.8.1"
+    "simplelightbox": "^2.9.0"
   }
 }

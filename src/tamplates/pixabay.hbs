@@ -1,7 +1,6 @@
 {{#each this}}
-<li class="photo-card ">
-<div class="photo-wrapper">
-<a href="{{largeImageURL}}">
+<li class="photo-card">
+<a class="photo-modal" href="{{largeImageURL}}">
   <img class="photo" src="{{webformatURL}}" alt="{{tags}}" />
 </a>
   <div class="stats">
@@ -21,7 +20,6 @@
       <i class="material-icons">cloud_download</i>
       {{downloads}}
     </p>
-  </div>
 </div>
 </li>
 {{/each}}
