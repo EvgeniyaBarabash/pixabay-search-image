@@ -44,15 +44,3 @@ function clearList(){
 
 
 
-// infinity scroll
-// const callback = (elements, observer) => {
-//   elements.forEach(element => {
-//     if (element.isIntersecting) {
-//       console.log('element', element)
-//     }
-//   })
-// }
-
-// const observer = new IntersectionObserver(callback)
-
-// observer.observe(document.querySelector('.target'))
