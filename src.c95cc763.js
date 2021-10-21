@@ -86,4 +86,4 @@ var e,t=arguments[3];!function(t,r){"object"==typeof exports&&"object"==typeof m
 },{"simplelightbox":"yx6k","notiflix":"oIzc","./pixabayApi.js":"Yyz6","../tamplates/pixabay.hbs":"e0Ng","./refs.js":"VyiV"}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("notiflix/dist/notiflix-aio-3.0.2.min.js"),require("./js/components/notiflix-options.js"),require("./js/gallery.js");
 },{"./sass/main.scss":"clu1","notiflix/dist/notiflix-aio-3.0.2.min.js":"oIzc","./js/components/notiflix-options.js":"mqAY","./js/gallery.js":"chxP"}]},{},["Focm"], null)
-//# sourceMappingURL=/pixabay-search-image/src.9166580c.js.map
+//# sourceMappingURL=/pixabay-search-image/src.c95cc763.js.map
